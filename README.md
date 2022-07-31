@@ -20,6 +20,7 @@ Stock Price Prediction using machine learning helps you discover the future valu
 	- In term of data: time series normally has seasonality and Prophet or ARIMA was designed to do this task, so that why they work better than LSTM in general.
 
 3. What is exponential smoothing and why is it used in Time Series Forecasting?
+
 	Exponential smoothing is a rule of thumb technique for smoothing time series data using the exponential window function. Whereas in the simple moving average the past observations are weighted equally, exponential functions are used to assign exponentially decreasing weights over time. Time Series might contains seasonality so that why this method is used for Time Series forecasting.
 
 4. What is stationarity? What is seasonality? Why Is Stationarity Important in Time Series Forecasting?
