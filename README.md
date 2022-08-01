@@ -1,7 +1,7 @@
 <h1>Stock-predictor</h1>
 
 ## Introduction
-Stock price analysis has been a critical area of research and is one of the top applications of machine learning. This tutorial will show you how to perform stock price prediction using machine learning. Here, you will use `prophet` to train model with stocks data and deploy model.
+Stock price analysis has been a critical area of research and is one of the top applications of machine learning. This tutorial will show you how to perform stock price prediction using machine learning. Here, I will use `prophet` to train model with stocks data and deploy model.
 
 ## Stock market?
 A stock market is a public market where you can buy and sell shares for publicly listed companies. The stocks, also known as equities, represent ownership in the company. The stock exchange is the mediator that allows the buying and selling of shares.
