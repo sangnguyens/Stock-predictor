@@ -34,3 +34,23 @@ Stock Price Prediction using machine learning helps you discover the future valu
 
 Fill in the blanks:
 `Seasonality` is predictable, whereas `cyclicality` is not.
+
+<h1>Rubic week-12-docker_container</h1>
+
+1. What does it mean to create a Docker image and why do we use Docker images?
+	- Creating a docker image means to build a file that contains teh source code, libraries, dependencies and other files as requirements for running an application.
+	- Docker images are easy to build and ship to clients. They are all-in-one solution and clients don't need to deal with incompatible dependencies problem.
+
+2. Please explain what is the difference from a Container vs a Virtual Machine?
+	- Containers are the virtual environment that run application. The capabilities of containers depends on built images and can not extend.
+	- Virtual Machine: is a virtual computer that shares the resource with physical computer and operates like a physical computer. We can install apps, libraries, .... on virtual machine to enhance its capabilities.
+
+3. What are 5 examples of container orchestration tools (please list tools)?
+	- Kubernetes
+	- OpenShift
+	- Nomad
+	- Docker Swarm
+	- AWS EKS
+	
+4. How does a Docker image differ from a Docker container?
+Docker image seems to be a foundation that provides all requirements for container running app. Images can exist without containers, whereas a container needs to run an image to exist. Therefore, containers are dependent on images and use them to construct a run-time environment and run an application.
